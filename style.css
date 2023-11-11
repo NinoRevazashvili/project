@@ -1,0 +1,110 @@
+/* header {
+    box-sizing: border-box;
+  }
+  
+ 
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  ul li {
+    border: 1px solid #ddd;
+    margin-top: -1px; 
+    background-color: #f6f6f6;
+    padding: 12px;
+    width:20px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block;
+    position: relative;
+  }
+  
+  
+  ul li:hover {
+    background-color: #eee;
+  }
+  
+
+  .close {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    padding: 12px 16px;
+    transform: translate(0%, -50%);
+  } */
+
+  /* *{
+    margin:0;
+    padding:0; 
+    box-sizing:border-box
+}  */
+.box{
+    max-width: 2000px;
+    margin: auto;
+}
+  .header-nav{
+    display: flex;
+    align-items: center;
+    background-color:#fafafc;
+  }
+  .header-ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-decoration: none;
+  }
+
+ nav ul li{
+     margin-right: 40px;   
+    
+  }  
+  .Apple-logo{
+    width:25px;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 40px; 
+  }
+  .search-logo{
+    width: 23px;
+   margin-right: 40px; 
+  }
+  .shopping-bag{
+    width: 30px; 
+  }
+.store{
+    text-decoration: none;
+}
+.Mac{
+    text-decoration: none;
+}
+.iPad{
+    text-decoration: none;
+}
+.iPhone{
+    text-decoration: none;
+}
+.Watch{
+    text-decoration: none;
+}
+.Vision{
+    text-decoration: none;
+}
+.AirPods{
+    text-decoration: none;
+}
+.TV{
+    text-decoration: none;
+}
+.Entertainment{
+    text-decoration: none;
+}
+.Accessories{
+    text-decoration: none;
+}
+.Support{
+    text-decoration: none;
+}
