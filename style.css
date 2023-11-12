@@ -46,31 +46,42 @@
     max-width: 2000px;
     margin: auto;
 }
-  .header-nav{
+
+
+   .header-nav{
+    /* width: 100%;
     display: flex;
     align-items: center;
+     background-color:#fafafc; 
+    margin-left: auto;
+    margin-right: auto; */
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin: 20px 0;
     background-color:#fafafc;
-  }
+  } 
   .header-ul{
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    /* justify-content: space-between; */
     list-style: none;
     text-decoration: none;
   }
 
  nav ul li{
-     margin-right: 40px;   
+      margin-right: 40px;    
     
   }  
   .Apple-logo{
     width:25px;
     align-items: center;
     margin-left: 100px;
-    margin-right: 40px; 
+    margin-right: 40px;  
   }
   .search-logo{
     width: 23px;
-   margin-right: 40px; 
+    margin-right: 40px;  
   }
   .shopping-bag{
     width: 30px; 
@@ -108,3 +119,18 @@
 .Support{
     text-decoration: none;
 }
+
+@media  (max-width: 800px) {
+  .header-ul {
+    display: none;
+  }
+}
+
+@media  (max-width: 800px) {
+  .shopping-bag{
+    margin-right: 50px;  
+  }
+         
+   }
+
+   
